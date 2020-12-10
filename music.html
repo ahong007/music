@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="music.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<body>
+<div class="container" data-active="0">
+    <audio class="music" src="mp3/0.mp3"></audio>
+    <header>
+        <div class="playlist">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="setting">
+            <i class="fa fa-cog"></i>
+        </div>
+    </header>
+
+    <main>
+        <div class="album-art">
+            <img src="index.png"alt="" />
+        </div>
+        <div class="player">
+            <i class="fa fa-repeat"></i>
+            <i class="fa fa-fast-backward slide-button" data-offset="-1"></i>
+            <i class="fa fa-play play"></i>
+            <i class="fa fa-fast-forward slide-button" data-offset="1"></i>
+            <i class="fa fa-random"></i>
+        </div>
+    </main>
+    <footer>
+        <div class="title dot-0 active" data-index="0">四只烤翅--再见</div>
+        <div class="title dot-1" data-index="1">花花</div>
+        <div class="title dot-2" data-index="2">要不要买菜--琴师</div>
+        <div class="time-tracker">
+            <div class="outer">
+                <div class="inner">
+                    <div class="dot"></div>
+                </div>
+        </div>
+        <div class="id-em-move">00:00</div>
+        </div>
+    </footer>
+</div>
+<script src="music.js"></script>
+</body>
+</html>
